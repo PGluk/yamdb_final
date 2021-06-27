@@ -52,7 +52,8 @@ class SendCodeSerializer(serializers.Serializer):
     email = serializers.EmailField(required=True)
 
     def validate_email(self, value):
-        return value.lower()
+        normal_email = value.lower()
+        return normal_email
 
 
 class UserTokenSerializer(serializers.Serializer):
