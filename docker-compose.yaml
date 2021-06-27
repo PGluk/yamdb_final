@@ -2,13 +2,13 @@ version: '3.8'
 
 services:
   db:
-    image: postgres:12.4
+    image: postgres:latest
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     env_file:
       - .env
   web:
-    build: .
+    image: glukosoft/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/code/static/
