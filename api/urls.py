@@ -17,6 +17,6 @@ v1_router.register((r'titles/(?P<title_id>\d+)/reviews/(?P<review_id>\d+)/'
 
 urlpatterns = [
     path('v1/', include(v1_router.urls)),
-    path('v1/auth/token/', views.GetJWTToken, name='token'),
+    path('v1/auth/token/', views.getjwt, name='token'),
     path('v1/auth/email/', views.email_confirmation, name='email'),
 ]
