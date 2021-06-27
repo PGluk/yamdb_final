@@ -75,7 +75,7 @@ def email_confirmation(request):
 
 @api_view(['POST'])
 @permission_classes((AllowAny,))
-def GetJwtToken(request):
+def get_jwt_token(request):
     """
     - Getting JWT if confirmation_code is valid.
     - The confirmation code can be used only once,
@@ -124,7 +124,8 @@ class UserViewSet(viewsets.ModelViewSet):
             serializer.is_valid(raise_exception=True)
             serializer.save()
             return Response(serializer.data, status=status.HTTP_200_OK)
-        return
+        return True
+
 
 class CommentViewSet(viewsets.ModelViewSet):
     serializer_class = CommentSerializer
