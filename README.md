@@ -7,8 +7,8 @@ GitHub статус бейдж: [![api_yamdb workflow](https://github.com/PGluk/
 Админ панель: <http://gluk.myddns.me/admin/>
 
 Тестовый аккаунт:
-email: test@test.ru
-password: test
+- email: test@test.ru
+- password: test
 
 ### Описание
 Проект **YaMDb** собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка».
