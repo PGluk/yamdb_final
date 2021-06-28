@@ -1,7 +1,9 @@
 # YaMDb API
 
 
-[![api_yamdb workflow](https://github.com/PGluk/yamdb_final/actions/workflows/main.yml/badge.svg)](https://github.com/PGluk/yamdb_final/actions/workflows/main.yml)
+GitHub статус бейдж: [![api_yamdb workflow](https://github.com/PGluk/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/PGluk/yamdb_final/actions/workflows/yamdb_workflow.yml)
+
+Страничка с проектом: <http://84.201.133.149/>
 
 ### Описание
 Проект **YaMDb** собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка».
