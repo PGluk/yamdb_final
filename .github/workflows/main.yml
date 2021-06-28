@@ -58,8 +58,7 @@ jobs:
             sudo docker pull ${{ secrets.DOCKER_USERNAME }}/api_yamdb:latest
             sudo docker-compose stop
             sudo docker-compose rm web
-            # Создаст файл для переменных окружения
-            touch .env 
+            touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
             echo DB_NAME=${{ secrets.DB_NAME }} >> .env
             echo POSTGRES_USER=${{ secrets.POSTGRES_USER }} >> .env
