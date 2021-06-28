@@ -8,8 +8,11 @@ SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '84.201.133.149',
-    'localhost'
+    "localhost",
+    "127.0.0.1",
+    "84.201.133.149",
+    "gluk.myddns.me",
+    "www.gluk.myddns.me",
 ]
 
 INSTALLED_APPS = [
