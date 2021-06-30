@@ -1,6 +1,6 @@
-name: api_yamdb workflow
+name: api_yamdb
 
-on: [ push ]
+on: push
 
 jobs:
   tests:
