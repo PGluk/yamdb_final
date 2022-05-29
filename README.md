@@ -3,13 +3,6 @@
 
 GitHub статус бейдж: [![api_yamdb workflow](https://github.com/PGluk/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/PGluk/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
-Страничка с проектом: <http://gluk.myddns.me/>
-Админ панель: <http://gluk.myddns.me/admin/>
-
-Тестовый аккаунт:
-- email: test@test.ru
-- password: test
-
 ### Описание
 Проект **YaMDb** собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка».
 
